@@ -42,7 +42,7 @@ Traditionally, you do some re-engineering of a model to integrate it with your a
 
 # Next Step
 
-Now you are ready to go to (next step)[Step1-SetupSagemaker/README.md] 
+Now you are ready to go to [next step](Step1-SetupSagemaker/README.md) 
 
 # Requirements
 
