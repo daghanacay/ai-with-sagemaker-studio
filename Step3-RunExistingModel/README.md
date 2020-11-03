@@ -7,7 +7,7 @@ In this section, you’ll work your way through a Jupyter notebook that demonstr
 - Upload Step3-RunExistingModel/src/prepareData-image.ipynb to your Sagemaker Studio notebook
 - This time select "MXnet CPU optimized" kernel
 
-[SelectKernel](!images/SelectKernel.png)
+![SelectKernel](images/SelectKernel.png)
 
 - Follow the instructions in the Jupyter notebook
 
