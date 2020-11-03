@@ -4,11 +4,11 @@
 
 Open your AWS console and log into Sagemaker you can search for Sagemaker on the console. Once you are in Sagemaker and click on the "Amazon Sagemaker Studio" on the left top of the console.
 
-[!SagemakerSetup](images/SagemakerStudioStart.png)
+![SagemakerSetup](images/SagemakerStudioStart.png)
 
 Select quick start and select execution role "Create New Role" In the opening screen accept the defaults and click on "Create Role"
 
-[!RoleSetup](images/CreateRole.png)
+![RoleSetup](images/CreateRole.png)
 
 WARNING! take a copy of the role created since we will need it during clean up mine looks like "AmazonSageMaker-ExecutionRole-20201102T121769" 
 
@@ -33,7 +33,7 @@ On top of that Sagmaker studio comes with SageMaker Autopilot supports:
 
 Now that your Sagemaker is set up lets see some of the properties
 
-[!SagemakerProp](images/SagemakerProperties.png)
+![SagemakerProp](images/SagemakerProperties.png)
 
 You can see your user and you can share your work with other users. You can also add different images to your Sagemaker studio. A SageMaker image is a holder for a set of SageMaker image versions. An image version represents a container image that is compatible with SageMaker Studio and stored in an Amazon Elastic Container Registry (ECR) repository. Image contained algorithms or resources you want to use such as Julia, R, Scala, Tensorflow 2 [with Sagamaker Studio](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-byoi.html). However, we will not talk about these features in this workshop. 
 
@@ -41,8 +41,8 @@ You can see your user and you can share your work with other users. You can also
 
 Once the Sagemaker Studio is active click on the Python3 as shown in the image 
 
-[!python3](images/JupiterNotebook.png)
+![python3](images/JupiterNotebook.png)
 
 This will create a Python3 environment that you can use for your Jupyter notebook. After the environment is created you need to select the kernel as shown below.
 
-[!python3](images/KernelSelect.png)
+![Kernelpython3](images/KernelSelect.png)
