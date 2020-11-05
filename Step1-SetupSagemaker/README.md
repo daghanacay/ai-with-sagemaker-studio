@@ -35,7 +35,7 @@ Now that your Sagemaker is set up lets see some of the properties
 
 ![SagemakerProp](images/SagemakerProperties.png)
 
-You can see your user and you can share your work with other users. You can also add different images to your Sagemaker studio. A SageMaker image is a holder for a set of SageMaker image versions. An image version represents a container image that is compatible with SageMaker Studio and stored in an Amazon Elastic Container Registry (ECR) repository. Image contained algorithms or resources you want to use such as Julia, R, Scala, Tensorflow 2 [with Sagamaker Studio](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-byoi.html). However, we will not talk about these features in this workshop. 
+You can see your user and you can share your work with other users. You can also add different images to your Sagemaker studio. A SageMaker image is a container that is compatible with SageMaker Studio. An image is stored in an Amazon Elastic Container Registry (ECR) repository. An image containes algorithms or resources you want to use such as Julia, R, Scala, Tensorflow 2 [with Sagamaker Studio](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-byoi.html). Although it is very powerful this topic is outside the scope of this workshop. 
 
 ## Setting up the Sagemaker Kernel
 
@@ -46,3 +46,7 @@ Once the Sagemaker Studio is active click on the Python3 as shown in the image
 This will create a Python3 environment that you can use for your Jupyter notebook. After the environment is created you need to select the kernel as shown below.
 
 ![Kernelpython3](images/KernelSelect.png)
+
+## Next step
+
+Please continue to the [next step](../Step2-RunAutoML/README.md) where we train a model to predict cutomer behavior on a fictitious data
