@@ -1,4 +1,4 @@
-# Run Automl to Predict a focus group for a specific Banking product
+# Section 2 -- Run Automl to Predict a focus group for a specific Banking product
 
 Direct marketing, through mail, email, phone, etc., is a common tactic to acquire customers.  Because resources and a customer's attention are limited, the goal is to only target the subset of prospects who are likely to engage with a specific offer.  Predicting those potential customers based on readily available information like demographics, past interactions, and environmental factors is a common machine learning problem. You can imagine that this task would readily translate to marketing lead prioritisation in your own organisation.
 
