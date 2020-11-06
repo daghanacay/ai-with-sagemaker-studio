@@ -58,6 +58,11 @@ Some, but NOT all, of the resources you will launch as part of this workshop are
 
 This workshop should cost you around 1 AUD. if you leave your Sagemaker instances on it will cost daily AUD 5. In addition your Endpoint will cost AUD 7 per day at a total cost of ~AUD 15 per day. So please do not forget to do the clean up. 
 
+# Contributors
+
+- Paul Kukiel
+- Alexander Zyuzin
+
 
 # References
 
