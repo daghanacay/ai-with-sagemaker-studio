@@ -18,4 +18,6 @@ Continue the instruction in the Jupyter notebook. Please select "Python Data Sci
 
 ## Prepare and run the AutoML model
 
-Now we are ready to create AutoML model. Please upload the Step2-RunAutoML/src/prepareData.ipynb to Jupyter notebook as above. Continue the instruction in the Jupyter notebook. Please select "Python Data Science" kernel if it is asked.
+Now we are ready to create AutoML model. Please upload the Step2-RunAutoML/src/createModelandRunInference.ipynb to Jupyter notebook as above. Continue the instruction in the Jupyter notebook. Please select "Python Data Science" kernel if it is asked.
+
+We are now ready for [step 3](Step3-RunExistingMode/README.md)

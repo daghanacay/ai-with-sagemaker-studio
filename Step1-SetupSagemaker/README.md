@@ -2,7 +2,7 @@
 
 ## Set up Sagemaker Studio
 
-Open your AWS console and log into Sagemaker you can search for Sagemaker on the console. Once you are in Sagemaker and click on the "Amazon Sagemaker Studio" on the left top of the console.
+Open your AWS console and log into Sagemaker you can search for Sagemaker on the console. Once you are in Sagemaker and click on the "Amazon Sagemaker Studio" on the left top of the console.  We will need to be in one of the supported regions for SageMaker Studio so ensure your region is one of :  US East (Ohio), US East (N. Virginia), US West (Oregon), or Europe (Ireland) at the time of this commit.  For best latency we should select:  US West (Oregon) ( look to the top right of the screen to the left of "Support" for the drop down to change regions.)
 
 ![SagemakerSetup](images/SagemakerStudioStart.png)
 
@@ -10,7 +10,7 @@ Select quick start and select execution role "Create New Role" In the opening sc
 
 ![RoleSetup](images/CreateRole.png)
 
-WARNING! take a copy of the role created since we will need it during clean up mine looks like "AmazonSageMaker-ExecutionRole-20201102T121769" 
+**Note**! take a copy of the role created since we will need it during clean up mine looks like "AmazonSageMaker-ExecutionRole-20201102T121769" 
 
 After the role is created click the "Submit" button. This should start creating a Sagemaker Studio for you. In couple of minutes it will be ready, click on the "Open Studio" button and continue with the next step. This will take some time. We need to mention that this wait is only for the first time creating the studio. It will be much faster in the consecutive runs of Sagemaker Studio. While you are waiting for it to be ready here are some benefits of [Sagemaker studio over Sagemaker notebook instances](https://docs.aws.amazon.com/sagemaker/latest/dg/notebooks-comparison.html):
 
